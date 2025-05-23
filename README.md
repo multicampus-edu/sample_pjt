@@ -26,15 +26,13 @@
 
 ## 🖼 시스템 아키텍처
 
-![시스템아키텍처다이어그램](https://github.com/user-attachments/assets/2612a166-fbd6-4d56-9026-cd602099aed6)
-
+![architecture](docs/architecture.png)
 
 ---
 
 ## ☁ AWS 인프라 구성
 
-![AWS아키텍처](https://github.com/user-attachments/assets/708500da-93f7-418b-afd0-e0cfecfdd2f7)
-
+![aws-structure](docs/aws-structure.png)
 
 - EC2: 백엔드 + 프론트 + nginx 컨테이너 호스팅
 - RDS: MySQL 데이터베이스
@@ -95,9 +93,3 @@ docker-compose up --build
 - GitHub: 소스코드 및 커밋 이력
 - Notion: 아키텍처 설명, 기술 선택 이유, 회고
 - 블로그: 트러블슈팅, 설정 방법 공유
-
----
-
-## 👀 시연 화면
-
-
