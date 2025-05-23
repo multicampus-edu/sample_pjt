@@ -26,13 +26,15 @@
 
 ## 🖼 시스템 아키텍처
 
-![architecture](docs/architecture.png)
+![시스템아키텍처다이어그램](https://github.com/user-attachments/assets/2612a166-fbd6-4d56-9026-cd602099aed6)
+
 
 ---
 
 ## ☁ AWS 인프라 구성
 
-![aws-structure](docs/aws-structure.png)
+![AWS아키텍처](https://github.com/user-attachments/assets/708500da-93f7-418b-afd0-e0cfecfdd2f7)
+
 
 - EC2: 백엔드 + 프론트 + nginx 컨테이너 호스팅
 - RDS: MySQL 데이터베이스
