@@ -90,12 +90,6 @@ cd ecommerce-fullstack-project
 docker-compose up --build
 ```
 
-------|-------------------------------|-----------|
-| 김개발 | 팀장 / 백엔드 개발 리드       | Spring Boot, JPA, RDS |
-| 박코딩 | 프론트엔드 개발               | React, TypeScript, UI/UX |
-| 이Dev   | DevOps 및 배포 인프라 총괄    | Docker, AWS, GitHub Actions |
-| 최테스터 | QA 및 테스트 자동화 지원     | E2E 테스트, 오류 리포트, 개선 제안 |
-
 
 ---
 
