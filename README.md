@@ -1,8 +1,18 @@
-
 # 🛒 Fullstack E-commerce Platform (React + Spring Boot + AWS)
 
 이 프로젝트는 **미취업 개발자들이 실무 전체 흐름을 경험**할 수 있도록 설계된 교육/포트폴리오용 이커머스 시스템입니다.
 
+---
+## 👥 팀원 소개 및 역할
+
+| 이름     | 역할                        | 담당 영역                        |
+|----------|-----------------------------|----------------------------------|
+| 김개발   | 팀장 / 백엔드 개발 리드     | Spring Boot, JPA, RDS           |
+| 박코딩   | 프론트엔드 개발             | React, TypeScript, UI/UX        |
+| 이Dev    | DevOps 및 배포 인프라 총괄  | Docker, AWS, GitHub Actions     |
+| 최테스터 | QA 및 테스트 자동화 지원    | E2E 테스트, 오류 리포트, 개선 제안 |
+
+![역할분담표](role_table_image.png)
 ---
 
 ## 🔍 프로젝트 개요
@@ -15,24 +25,26 @@
 
 ## 🧱 기술 스택
 
-| 영역 | 기술 |
-|------|------|
-| Frontend | React, TypeScript, Axios, React Router |
-| Backend | Spring Boot, Spring Security, JPA, JWT |
-| DevOps | Docker, GitHub Actions, Nginx |
-| Infra | AWS EC2, S3, RDS (MySQL) |
+| 영역     | 기술                                      |
+|----------|-------------------------------------------|
+| Frontend | React, TypeScript, Axios, React Router    |
+| Backend  | Spring Boot, Spring Security, JPA, JWT    |
+| DevOps   | Docker, GitHub Actions, Nginx             |
+| Infra    | AWS EC2, S3, RDS (MySQL)                  |
 
 ---
 
 ## 🖼 시스템 아키텍처
 
-![architecture](docs/architecture.png)
+<img width="661" height="352" alt="image" src="https://github.com/user-attachments/assets/ad5ba67f-894a-4607-8469-bb0c779335fa" />
+
 
 ---
 
 ## ☁ AWS 인프라 구성
 
-![aws-structure](docs/aws-structure.png)
+<img width="982" height="747" alt="image" src="https://github.com/user-attachments/assets/b609e167-3166-4f11-beea-1b7887ad10eb" />
+
 
 - EC2: 백엔드 + 프론트 + nginx 컨테이너 호스팅
 - RDS: MySQL 데이터베이스
@@ -79,6 +91,25 @@ cd ecommerce-fullstack-project
 docker-compose up --build
 ```
 
+------|-------------------------------|-----------|
+| 김개발 | 팀장 / 백엔드 개발 리드       | Spring Boot, JPA, RDS |
+| 박코딩 | 프론트엔드 개발               | React, TypeScript, UI/UX |
+| 이Dev   | DevOps 및 배포 인프라 총괄    | Docker, AWS, GitHub Actions |
+| 최테스터 | QA 및 테스트 자동화 지원     | E2E 테스트, 오류 리포트, 개선 제안 |
+
+
+---
+
+## 🤝 협업 도구 및 사용한 툴
+
+| 목적          | 도구                     |
+|---------------|--------------------------|
+| 코드 협업     | GitHub, GitHub Projects  |
+| 문서 작성     | Notion                   |
+| 커뮤니케이션 | Discord, Google Meet     |
+| 이슈 관리     | GitHub Issues             |
+| 디자인 공유   | Figma                    |
+
 ---
 
 ## 🧠 회고 및 성장 포인트
@@ -100,6 +131,3 @@ docker-compose up --build
 
 - 화면
 - 동영상
-
-  
-
