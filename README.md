@@ -129,4 +129,6 @@ docker-compose up --build
 ## 👀 시연
 
 - 화면
+<img width="523" height="524" alt="image" src="https://github.com/user-attachments/assets/db7d59a6-1da4-4a34-80cc-8ec9a63cad5e" />
+
 - 동영상
